@@ -1,0 +1,24 @@
+footer {
+    position: relative;
+    background:url(./images/waffle.jpg);
+    color: white;
+    padding-top: 200px;
+    margin-top: -15px;
+  }
+  footer::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    right: 0;
+    top: 0;
+    background-color:white;
+    clip-path: ellipse(61.36% 62.27% at 49.17% 4%);
+  }
+  footer .entry {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  
