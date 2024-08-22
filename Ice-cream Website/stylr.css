@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+   .card-text
+   {
+    width: 100px;
+    height: 25px;
+    background-color: white; /* Background color for the box */
+    display: inline-block;
+   }
+
+   .card-title
+    {
+    width: 90px;
+    height: 25px;
+    background-color: white; /* Background color for the box */
+    display: inline-block;
+    }
+  .image {
+    opacity: 1;
+    background-color:rgb(240, 248, 255);
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border-radius:50%;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: azure;
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+    background-color:cornsilk;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+    background-color:azure;
+  }
+  
+  .text {
+    /* background-color: #f3f3f3; */
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+
+
+
+/* .carousel-inner
+{
+    width:500px;
+    object-fit: cover;
+} */
+/* .footer-class
+{
+    background-color: black;
+} */

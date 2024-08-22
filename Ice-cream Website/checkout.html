@@ -1,0 +1,38 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title style="color:black;">Details</title>
+  <link rel="stylesheet" href="./loginform/styles.css">
+  <link rel="stylesheet" href="truck.scss">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body style="background: url(./images/waffle.jpg);">
+  <div class="wrapper">
+    <form action="orderplaced.php" name="orderplaced" method="post">
+      <h1 style="color:black;">Enter delivery address</h1>
+      <div class="input-box">
+        <input type="text" placeholder="Name" name="name" id="name" required>
+        <i class="bx bxs-user"></i>
+      </div>
+      <div class="input-box">
+        <input type="number" placeholder="zipcode" name="zipcode" id="zipcode" required>
+        <i class="bx bxs-user"></i>
+      </div>
+      <div class="input-box">
+        <input type="number" placeholder="Phone number" name="number" id="number" required>
+        
+      </div>
+      <div class="input-box">
+        <input type="textbox" placeholder="address" name="address" id="address" required>
+      </div>
+      <button type="submit" class="btn" id="submit"><h3 style="color:white;">place order</h3></button>
+      <div class="register-link">
+      </div>
+    </form>
+  </div>
+</body>
+</html>
